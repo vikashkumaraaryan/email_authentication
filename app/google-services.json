@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401606611945",
+    "project_id": "email-authentication-21d9e",
+    "storage_bucket": "email-authentication-21d9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401606611945:android:639004381bdd609d15f178",
+        "android_client_info": {
+          "package_name": "com.example.email_authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-xab7JmQ5-4eIclHjXCeHYPibXM77EVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
