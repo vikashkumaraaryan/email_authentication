@@ -53,18 +53,41 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/conform_password"
+            android:id="@+id/confirm_password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/C_Password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:id="@+id/createAccountButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/conform_password_Layout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:hint="Signed" />
+        android:hint="Create Account" />
+
+    <TextView
+        android:id="@+id/orButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createAccountButton"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="15dp"
+        android:text="Or"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Signin_Button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/orButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textSize="25dp" />
 
 </RelativeLayout>
